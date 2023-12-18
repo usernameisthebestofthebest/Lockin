@@ -1,0 +1,64 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+}
+
+.design-container1 {
+     text-align: center;
+     border: 3px solid;
+     height: 50vh;
+     width: 30%;
+     margin: auto;
+     border-radius: 20px;
+     box-shadow: 10px 10px;
+
+     
+}
+
+.design2 {
+    margin: auto;
+    text-align: center;
+
+}
+
+input {
+    margin: 20px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    width: 50%;
+    padding: 5px;
+}
+
+input::placeholder {
+    color: wheat;
+}
+
+#st {
+    display: inline;
+}
+
+button {
+    display: block;
+    margin: auto;
+    width: 25%;
+    padding: 3px;
+    border-radius: 25px;
+    cursor: pointer;
+    background: gray;
+    
+}
+
+#login {
+    text-decoration: none;
+}
+
+#login:hover {
+    color: pink;
+}
+
+button:hover {
+    opacity: 0.6;
+}

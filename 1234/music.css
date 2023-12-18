@@ -1,0 +1,475 @@
+body {
+    background-color: gray;
+}
+
+.tr {
+   text-decoration: none;
+   font-size: 25px;
+   margin: 90px;
+   text-align: justify;
+   color: red;
+}
+#btn {
+    display: block;
+    margin: auto;
+    width: 25%;
+    padding: 3px;
+    border-radius: 25px;
+    cursor: pointer;
+    background: gray;
+}
+.tagak1 {
+  background-color: white;
+  padding: 10px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+}
+h2 {
+  font-size: 50px;
+  text-align: center;
+  background-color: white;
+  width: fit-content;
+  margin: auto;
+  transition: 2s;
+}
+
+h2:hover {
+  transform: rotate(360deg);
+  scale: 2;
+}
+
+#report2 {
+  background-color: #00008B;
+  width: fit-content;
+  margin: auto;
+  transition: 2s;
+  color: white;
+
+}
+
+#report2:hover {
+  transform: rotate(360deg);
+  scale: 2;
+}
+
+#report3 {
+  background-color: #87CEEB;
+  width: fit-content;
+  margin: auto;
+  transition: 2s;
+}
+
+#report4 {
+  background-color: #2b322b;
+  width: fit-content;
+  margin: auto;
+  transition: 2s;
+}
+
+#report5 {
+  background-color: crimson;
+  width: fit-content;
+  margin: auto;
+  transition: 2s;
+}
+
+#report6 {
+  background-color: red;
+  width: fit-content;
+  margin: auto;
+  transition: 2s;
+
+}
+
+.tagak3 {
+  display: none;
+  position: absolute;
+  width: 20%;
+  z-index: 1;
+  color: wheat;
+  background-color: wheat;
+}
+
+.tagak3 a {
+  color: white;
+  padding: 30%;
+  text-decoration: none;
+  display: block;
+  background-color: red;
+  text-align: center;
+  margin: auto;
+ 
+}
+
+.tagak-main a:hover {background-color: blue;}
+.show {display: block;}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  transition: width 2s;
+}
+#wutang {
+  font-size: 20px;
+  background: yellow;
+  transition: 2s;
+  width: 30%;
+}
+
+#wutang {transition-timing-function: linear;}
+
+#wutang:hover {
+  width: 100%;
+}
+.img {
+  transition: 2s;
+}
+.img:hover {
+  transform: rotate(360deg);
+}
+
+#eminem {
+  font-size: 20px;
+  background: black;
+  transition: 2s;
+  width: 30%;
+  color: white;
+}
+
+#eminem {transition-timing-function: linear;}
+
+#eminem:hover {
+  width: 100%;
+}
+
+#jcole {
+  font-size: 20px;
+  background: green;
+  transition: 2s;
+  width: 30%;
+}
+
+#jcole {transition-timing-function: linear;}
+
+#jcole:hover {
+  width: 100%;
+}
+
+#kdot {
+  font-size: 20px;
+  background: red;
+  transition: 2s;
+  width: 30%;
+}
+
+#kdot {transition-timing-function: linear;}
+
+#kdot:hover {
+  width: 100%;
+}
+
+#ice {
+  font-size: 20px;
+  background: blue;
+  transition: 2s;
+  width: 30%;
+  color: red;
+}
+
+#ice {transition-timing-function: linear;}
+
+#ice:hover {
+  width: 100%;
+}
+
+
+
+#taylor {
+  font-size: 20px;
+  background: purple;
+  transition: 2s;
+  width: 30%;
+}
+
+#taylor {transition-timing-function: linear;}
+
+#taylor:hover {
+  width: 100%;
+}
+
+
+#justin {
+  font-size: 20px;
+  background: purple;
+  transition: 2s;
+  width: 30%;
+}
+
+#justin {transition-timing-function: linear;}
+
+#justin:hover {
+  width: 100%;
+}
+
+#bruno {
+  font-size: 20px;
+  background: red;
+  transition: 2s;
+  width: 30%;
+}
+
+#bruno {transition-timing-function: linear;}
+
+#bruno:hover {
+  width: 100%;
+}
+
+#michael {
+  font-size: 20px;
+  background: red;
+  transition: 2s;
+  width: 30%;
+}
+
+#michael {transition-timing-function: linear;}
+
+#michael:hover {
+  width: 100%;
+}
+
+#miley {
+  font-size: 20px;
+  background: limegreen;
+  transition: 2s;
+  width: 30%;
+}
+
+#miley {transition-timing-function: linear;}
+
+#miley:hover {
+  width: 100%;
+}
+
+#slipknot {
+  font-size: 20px;
+  background: red;
+  transition: 2s;
+  width: 30%;
+}
+
+#slipknot {transition-timing-function: linear;}
+
+#slipknot:hover {
+  width: 100%;
+}
+
+#pantera {
+  font-size: 20px;
+  background: black;
+  transition: 2s;
+  width: 30%;
+  color: white;
+}
+
+#pantera {transition-timing-function: linear;}
+
+#pantera:hover {
+  width: 100%;
+}
+
+
+#metallica {
+  font-size: 20px;
+  background: silver;
+  transition: 2s;
+  width: 30%;
+}
+
+#metallica {transition-timing-function: linear;}
+
+#metallica:hover {
+  width: 100%;
+}
+
+#blacksabbath {
+  font-size: 20px;
+  background: white;
+  transition: 2s;
+  width: 30%;
+}
+
+#blacksabbath {transition-timing-function: linear;}
+
+#blacksabbath:hover {
+  width: 100%;
+}
+
+#soad {
+  font-size: 20px;
+  background: brown;
+  transition: 2s;
+  width: 30%;
+}
+
+#soad {transition-timing-function: linear;}
+
+#soad:hover {
+  width: 100%;
+}
+
+#radio {
+  font-size: 20px;
+  background: lightblue;
+  transition: 2s;
+  width: 30%;
+}
+
+#radio {transition-timing-function: linear;}
+
+#radio:hover {
+  width: 100%;
+}
+
+#linkin {
+  font-size: 20px;
+  background: lightslategrey;
+  transition: 2s;
+  width: 30%;
+}
+
+#linkin {transition-timing-function: linear;}
+
+#linkin:hover {
+  width: 100%;
+}
+
+#green {
+  font-size: 20px;
+  background: lightgreen;
+  transition: 2s;
+  width: 30%;
+}
+
+#green {transition-timing-function: linear;}
+
+#green:hover {
+  width: 100%;
+}
+
+#mcr {
+  font-size: 20px;
+  background: black;
+  transition: 2s;
+  width: 30%;
+  color: darkred;
+}
+
+#mcr {transition-timing-function: linear;}
+
+#mcr:hover {
+  width: 100%;
+}
+
+#aic {
+  font-size: 20px;
+  background: darkturquoise;
+  transition: 2s;
+  width: 30%;
+}
+
+#aic {transition-timing-function: linear;}
+
+#aic:hover {
+  width: 100%;
+}
+
+#acdc {
+  font-size: 20px;
+  background: darkred;
+  transition: 2s;
+  width: 30%;
+}
+
+#acdc {transition-timing-function: linear;}
+
+#acdc:hover {
+  width: 100%;
+}
+
+#rchp {
+  font-size: 20px;
+  background: red;
+  transition: 2s;
+  width: 30%;
+}
+
+#rchp {transition-timing-function: linear;}
+
+#rchp:hover {
+  width: 100%;
+}
+
+#beatles {
+  font-size: 20px;
+  background: dimgray;
+  transition: 2s;
+  width: 30%;
+}
+
+#beatles {transition-timing-function: linear;}
+
+#beatles:hover {
+  width: 100%;
+}
+
+
+#aero {
+  font-size: 20px;
+  background: sienna;
+  transition: 2s;
+  width: 30%;
+}
+
+#aero {transition-timing-function: linear;}
+
+#aero:hover {
+  width: 100%;
+}
+
+#weezer {
+  font-size: 20px;
+  background: lightyellow;
+  transition: 2s;
+  width: 30%;
+}
+
+#wezzer {transition-timing-function: linear;}
+
+#weezer:hover {
+  width: 100%;
+}
+
+#hiphop {
+  background-image: url(https://img.freepik.com/premium-vector/vector-art-design-background_450492-10.jpg?size=626&ext=jpg&ga=GA1.1.605522610.1702706034&semt=ais);
+ 
+}
+
+#pop {
+  background-image: url(https://wallpapercave.com/dwp1x/wp2417519.jpg);
+  
+}
+
+#heavy {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/570/997/288/star-wars-guitar-heavy-metal-pearls-wallpaper-preview.jpg);
+  
+}
+
+#alternative {
+  background-image: url(https://c0.wallpaperflare.com/preview/126/671/748/punk-skate-skateboard-vans.jpg);
+}
+
+#rock {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/102/584/835/rock-n-roll-music-rock-rock-and-roll-wallpaper-preview.jpg);
+}

@@ -1,0 +1,60 @@
+body {
+    background-image: url(https://media2.giphy.com/media/jGeVGVZB8iCT6/200.webp?cid=ecf05e47dik3qqoxcq0vmsqtepu7mtyh4kqjb1ag8g3r2d03&ep=v1_gifs_search&rid=200.webp&ct=g);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+   
+}
+
+
+#wc {
+    font-size: 50px;
+    text-align: center;
+}
+
+.tr {
+    text-decoration: none;
+    color: wheat;
+}
+
+.design-container {
+    border: 2px solid;
+    width: 70%;
+    height: 88vh;
+    margin: 60px;
+    margin: auto;
+    border-color: wheat;
+    
+}
+
+.design1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    margin: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: wheat;
+}
+
+.logout {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: red;
+}
+
+button {
+    border-radius: 20px;
+    padding: 8px;
+    width: 10%;
+    background-color: gray;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.5;
+}

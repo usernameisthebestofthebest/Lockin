@@ -1,0 +1,115 @@
+body {
+  background-color: gray;
+}
+
+.tr {
+   text-decoration: none;
+   font-size: 25px;
+   margin: 90px;
+   text-align: justify;
+   color: red;
+   text-align: justify;
+   
+}
+#btn {
+   padding: 10px;
+   box-shadow: 5px 5px;
+   display: block;
+}
+
+.tagak1 {
+   background-color: pink;
+   color: blue;
+   padding: 20px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ .tagak1:hover, .tagak1:focus {
+   background-color: gray;
+   padding: 20px;
+ }
+ 
+ 
+ 
+ .tagak3 {
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   width: 20%;
+   z-index: 2;
+ }
+ 
+ .tagak3 a {
+  color: white;
+  padding: 30%;
+  text-decoration: none;
+  display: block;
+  background-color: red;
+  text-align: center;
+  margin: auto;
+ 
+}
+
+.tagak-main a:hover {background-color: blue;}
+.show {display: block;}
+
+
+
+ .container {
+  margin: auto;
+
+ }
+
+ .img {
+  width: 300px;
+  margin: auto;
+
+ }
+
+ 
+ p {
+  color: white;
+ }
+
+
+.img {
+    width: 20%;
+    margin-left: 50px;
+  
+ }
+
+
+
+
+#myInput {
+ 
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid pink;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid pink;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid black;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: pink;
+}

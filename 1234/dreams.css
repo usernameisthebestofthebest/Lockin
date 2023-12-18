@@ -1,0 +1,124 @@
+body {
+  background-color: gray;
+}
+
+.tr {
+   text-decoration: none;
+   font-size: 25px;
+   margin: 90px;
+   text-align: justify;
+   color: wheat;
+   
+   
+}
+#btn {
+   padding: 10px;
+   box-shadow: 5px 5px;
+   display: block;
+}
+
+.tagak1 {
+   background-color: white;
+   padding: 10px;
+   font-size: 10px;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ 
+ .tagak3 {
+   display: none;
+   position: absolute;
+   width: 20%;
+   z-index: 1;
+   color: wheat;
+   background-color: wheat;
+ }
+ 
+ .tagak3 a {
+   color: white;
+   padding: 30%;
+   text-decoration: none;
+   display: block;
+   background-color: red;
+   text-align: center;
+   margin: auto;
+  
+ }
+ 
+ .tagak-main a:hover {background-color: blue;}
+ .show {display: block;}
+
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 4px 4px white;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 4px 4px wheat;
+  display: flex;
+}
+
+.img {
+  margin-left: 10px;
+}
+ 
+.wow {
+  font-size: 50px;
+  border: 2px solid;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.wow:hover {
+  scale: 2;
+  transition: 2s;
+  background-color: rebeccapurple;
+}
+
+.img:hover {
+  scale: 2;
+  transition: 2s;
+}
+
+.img {
+  border-radius: 20px;
+}
+
+#rpg {
+  background-image: url(https://img.freepik.com/free-photo/challenger-stands-front-spooky-castle-illustration_456031-14.jpg?size=626&ext=jpg&ga=GA1.2.605522610.1702706034&semt=ais);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position: absolute;
+}
+
+#moba {
+  background-image: url(https://img.freepik.com/free-vector/gradient-futuristic-technology-background_23-2149113025.jpg?size=626&ext=jpg&ga=GA1.1.605522610.1702706034&semt=ais);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position: absolute;
+}
+
+#sports {
+  background-image: url(https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?size=626&ext=jpg&ga=GA1.1.605522610.1702706034&semt=ais);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position: absolute;
+  
+}
+
+#fps {
+  background-image: url(https://img.freepik.com/premium-photo/futuristic-soldier-running-away-from-giant-explosion-digital-art-style-illustration-painting_37402-60.jpg?size=626&ext=jpg&ga=GA1.2.605522610.1702706034&semt=ais);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position: absolute;
+}

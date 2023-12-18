@@ -1,0 +1,91 @@
+body {
+     background-image: url(pic.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+}
+
+.tr {
+    text-decoration: none;
+    font-size: 25px;
+    margin: 90px;
+    text-align: justify;
+    color: red;
+    
+}
+#btn {
+    padding: 10px;
+    box-shadow: 5px 5px;
+    display: block;
+    text-align: center;
+}
+
+.tagak1 {
+  background-color: white;
+  padding: 10px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.tagak3 {
+  display: none;
+  position: absolute;
+  width: 20%;
+  z-index: 1;
+  color: wheat;
+  background-color: wheat;
+}
+
+.tagak3 a {
+  color: white;
+  padding: 30%;
+  text-decoration: none;
+  display: block;
+  background-color: red;
+  text-align: center;
+  margin: auto;
+ 
+}
+
+.tagak-main a:hover {background-color: blue;}
+.show {display: block;}
+
+
+ 
+  
+h2 {
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 2px 2px blue, 3px 3px pink;
+  margin: 5px
+}
+  #img {
+    width: 200px;
+    margin-left: 550px;
+    transition: 1s;
+  
+  }
+
+.para {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  border: 2px solid;
+  width: 100%;
+  margin: auto;
+  color:  black;
+  border-radius: 20px;
+  box-shadow: 1px 10px;
+ 
+}
+
+#img:hover {
+  scale: 2;
+
+}
+
+#img1 {
+  object-fit: contain;
+}
